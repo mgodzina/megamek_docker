@@ -15,7 +15,7 @@ docker build --build-arg VERSION=0.49.14 -t megamek:0.49.14 .
 You can run the container using the following command. \
 Replace `host_port` with a desired port for your server. \
 You can use the default port 2346. \
-Replace `yourpassword` with desired server password.
+Replace `yourpassword` with desired server password. \
 Make sure that you use the same image tak as in the build commands (eg. `megamek:0.48.0`)
 
 ```shell
