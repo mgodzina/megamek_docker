@@ -1,8 +1,8 @@
 # Use recomended for MegaMek Java 11 distribution offcial image.
-FROM eclipse-temurin:11.0.20.1_1-jre-jammy
+FROM eclipse-temurin:17.0.11_9-jre-jammy
 
 # Set MegaMek version
-ARG VERSION=0.49.14
+ARG VERSION=0.49.19.1
 
 RUN cd /srv && \
 # Download desired MegaMek release
