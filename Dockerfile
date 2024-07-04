@@ -1,4 +1,4 @@
-# Use recomended for MegaMek Java 11 distribution offcial image.
+# Use recomended for MegaMek Java 17 distribution offcial image.
 FROM eclipse-temurin:17.0.11_9-jre-jammy
 
 # Set MegaMek version
