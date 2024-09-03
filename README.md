@@ -3,7 +3,9 @@ Megamek dedicated server dockerfile. \
 The image creates persistent volume for custom MegaMek assets.
 
 # Building image
-You need to have Docker installed. The image can be built using the following command. \
+You need to have Docker installed.
+Rename `Dockerfile_*` to `Dockerfile` according to MegaMek version you want to use
+The image can be built using the following command. \
 Replace the version number in the VERSION argument and in an image tag (megamek:0.49.14) with a version of MegaMek you want to run. \
 (note the dot at the end)
 ```shell
